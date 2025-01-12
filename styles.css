@@ -4,21 +4,35 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 480px;
-    height: 480px;
+    height: 512px;
+    width: 512px;
 }
 
 .box {
-    background-color: lightcoral;
+    flex: 0 0 calc(100%/16);
     border: 1px solid black;
-    height: 30px;
-    width: 30px;
-    min-width: 30px;
-    
+    height: calc(512px/16);
+    aspect-ratio: 1;
+}
+
+.box:hover {
+    background-color: black;
+}
+
+button {
+    position: fixed;
+    top: 32px;
 }
