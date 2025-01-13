@@ -1,6 +1,10 @@
 const boxSelectorButton = document.createElement("button");
-boxSelectorButton.textContent = "Click Me to begin!";
+boxSelectorButton.textContent = "Click Me to change grid size!";
 document.body.insertBefore(boxSelectorButton, document.body.firstChild);
+
+const instructions = document.createElement("p");
+instructions.textContent = "Click and hold to sketch!"
+document.body.insertBefore(instructions, boxSelectorButton);
 
 const container = document.getElementById("cont");
 

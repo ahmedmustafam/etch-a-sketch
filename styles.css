@@ -34,3 +34,8 @@ button {
     position: fixed;
     top: 32px;
 }
+
+p {
+    position: fixed;
+    top: 64px;
+}
