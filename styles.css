@@ -22,9 +22,7 @@ body {
 }
 
 .box {
-    flex: 0 0 calc(100%/16);
     border: 1px solid black;
-    height: calc(512px/16);
     aspect-ratio: 1;
 }
 
