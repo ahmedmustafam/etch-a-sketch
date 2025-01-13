@@ -29,9 +29,9 @@ function createSquares(num) {
     document.addEventListener("mousedown", () => {
         isMouseClicked = true;
     })
-    document.addEventListener("mouseup", () => {
-        isMouseClicked = false;
-    })
+    //document.addEventListener("mouseup", () => {
+    //    isMouseClicked = false;
+    //})
     boxes.forEach(box => {
         box.addEventListener("mouseover", () => {
             if (isMouseClicked) {
